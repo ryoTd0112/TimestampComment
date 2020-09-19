@@ -1,0 +1,64 @@
+[
+    {
+        "Title":"Time Stamp Comment",
+        "Language":"&Language",
+        "Language Setting":"&English",
+
+        "File":"&File",
+        "Export":"&Export\tCtrl+E",
+        "Exit":"E&xit\tCtrl+W",
+
+        "Edit":"&Edit",
+        "Timer":"&Timer",
+        "Start":"&Start\tCtrl+S",
+        "Pause":"&Pause\tCtrl+P",
+        "Reset":"&Reset\tCtrl+R",
+        "Time Stamp":"Time &Stamp",
+        "New":"&New\tCtrl+N",
+
+        "View":"&View",
+        "Show Preview": "Show &Preview\tCtrl+Shift+P",
+
+        "Help":"&Help",
+        "Welcome":"&Welcome\tCtrl+Shift+H",
+        "Visit Github":"Visit &Github",
+        "About":"&About",
+
+        "Space length label":"Space Length",
+        "Wrap length label":"Wrap Length",
+        "Newline count label":"Newline Count",
+
+        "Save As...":"Save As..."
+    },
+    {
+        "Title":"タイムスタンプ コメント",
+        "Language":"言語(&L)",
+        "Language Setting":"日本語(&J)",
+
+        "File":"ファイル(&F)",
+        "Export":"出力(&E)\tCtrl+O",
+        "Exit":"閉じる(&X)\tCtrl+E",
+
+        "Edit":"編集(&E)",
+        "Timer":"タイマー(&T)",
+        "Start":"開始((&T)\tCtrl+S",
+        "Pause":"一時停止(&S)\tCtrl+P",
+        "Reset":"停止(&P)\tCtrl+R",
+        "Time Stamp":"タイムスタンプ(&S)",
+        "New":"新規(&N)\tCtrl+N",
+
+        "View":"表示(&V)",
+        "Show Preview": "プレビューを見る(&P)\tCtrl+Shift+P",
+
+        "Help":"ヘルプ(&H)",
+        "Welcome":"ようこそ(&W)\tCtrl+Shift+H",
+        "Visit Github":"Githubを開く(&G)",
+        "About":"このアプリについて(&A)",
+
+        "Space length label":"スペース",
+        "Wrap length label":"折り返し",
+        "Newline count label":"行間隔",
+
+        "Save As...":"保存先..."
+    }
+]

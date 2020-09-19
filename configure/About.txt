@@ -1,0 +1,4 @@
+Time Stamp Comment
+version: 1.0.0{ENDOFONELANGUAGE}
+タイムスタンプコメント
+バージョン: 1.0.0
