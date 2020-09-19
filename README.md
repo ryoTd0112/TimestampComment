@@ -4,6 +4,9 @@ Welcome !!!!
 This app was created to put a time stamp
 on the distribution, like "YouTube".
 
+# Demo
+![Demo](https://github.com/ryoTd0112/TimestampComment/blob/master/demo.gif)
+
 # Requirement
 
 * Python 3.8.2
