@@ -697,24 +697,18 @@ class ContentsDisplay(ScrolledPanel):
         return ret
 
     def __text_wrap(self, s, indent_length=0, wrap_length=80):
-        new_line_index = s.find('\n')
+
         indent = ' ' * indent_length
-
-        if new_line_index != -1:
-            return s[: new_line_index + 1] + self.__text_wrap(indent + s[new_line_index + 1:], indent_length, wrap_length)
-
-        if self.__count_east_asian_width(s) <= wrap_length:
-            return s
-
-        if indent_length >= wrap_length:
-            return s
-
         count = 0
         for n, c in enumerate(s):
             count += self.__count_east_asian_width(c)
 
             if count > wrap_length:
                 return s[: n] + '\n' + self.__text_wrap(indent + s[n:], indent_length, wrap_length)
+            if c == '\n':
+                return s[: n + 1] + self.__text_wrap(indent + s[n + 1:], indent_length, wrap_length)
+              
+        return s
 
     def __count_east_asian_width(self, s):
         return sum(2 if east_asian_width(c) in 'FWA' else 1 for c in s)
